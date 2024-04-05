@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -86,14 +91,6 @@ input {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-/*.container {
-  width: 1158px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}*/
 
 /*============MOBILE style=====================*/
 
@@ -206,6 +203,7 @@ input {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 8px;
 }
 .promo-item-title {
   font-weight: 700;
@@ -214,7 +212,7 @@ input {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 8px;
+  /*margin-bottom: 8px;*/
 }
 
 .promo-item-text {
@@ -234,7 +232,6 @@ input {
 }
 
 .team-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
@@ -247,6 +244,7 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   row-gap: 72px;
   padding: 32px 16px;
 }
@@ -619,6 +617,7 @@ input {
 .mob-adres {
   margin-bottom: 48px;
 }
+
 .mob-adres-list {
   display: flex;
   flex-direction: column;
@@ -664,6 +663,7 @@ input {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 288px;
+  height: 100%;
   border-radius: 4px;
   padding: 72px 16px 24px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
@@ -878,3 +878,12 @@ input {
 .btn-modal:focus {
   background-color: #404bbf;
 }
+
+/*/.final-container {
+    max-width: 1158px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0;
+    align-items: baseline;
+    flex-direction: row;
+  }*/
