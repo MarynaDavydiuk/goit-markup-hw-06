@@ -154,15 +154,12 @@
 
   .final .logo.down {
     display: inline-block;
-    /*padding: 0;*/
   }
 
   .final-container {
     max-width: calc(264px * 2 + 24px);
     flex-direction: row;
-    /*gap: 72px 24px;*/
-    row-gap: 72px;
-    column-gap: 24px;
+    gap: 72px 24px;
     align-items: baseline;
     flex-wrap: wrap;
   }
@@ -186,6 +183,11 @@
   .form-subscribe {
     flex-direction: row;
     gap: 24px;
+  }
+  /*==Modal==*/
+
+  .modal {
+    width: 428px;
   }
 }
 
@@ -284,60 +286,34 @@
     width: calc((100% - 48px) / 3);
   }
 
-  /*==Foter==
+  /*==Foter==*/
 
   .final {
     padding-top: 100px;
     padding-bottom: 100px;
-  }
-
-  .final-container {
-    max-width: 1158px;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap; 
-    align-items: baseline;
-    gap: 0;
-    row-gap: 0px;
-    column-gap: 0px;
-  }
-
-  .down-text {
-    width: 264px;
-    margin-right: 120px;
-  }
-
-  .container-social {
-    margin-right: 80px;
-  }*/
-
-  .final {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    margin-left: 0;
+    margin-bottom: 0;
   }
 
   .final-container {
     max-width: 1158px;
     display: flex;
     flex-direction: row;
-    /*justify-content: space-between;*/
     flex-wrap: nowrap;
     align-items: baseline;
-    gap: 0;
-    margin: 0;
+    gap: unset;
   }
 
   .container-logo {
     margin-right: 120px;
+    margin-left: 0;
+    margin-bottom: 0;
   }
-
-  /*.final .down-text {
-    width: 264px;
-    margin-right: 120px;
-  }*/
 
   .container-social {
     margin-right: 80px;
+    margin-left: 0;
+    margin-bottom: 0;
   }
 }
 
